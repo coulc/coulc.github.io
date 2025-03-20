@@ -90,7 +90,7 @@ inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 >:CocConfig  
 >输入:  
 >{  
->"inlayHint.enable": false   
+>"inlayHint.enable": false,  
 >"diagnostic.enable": false  
 >}  
 
