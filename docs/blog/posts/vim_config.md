@@ -86,12 +86,12 @@ inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 " ------
 ```
 >tips:  
->禁用cocc.nvim的内嵌类型提示和诊断
+>禁用cocc.nvim的内嵌类型提示和诊断   
 >:CocConfig  
 >输入:  
 >{  
 >"inlayHint.enable": false   
->"diagnostic.enable": false
+>"diagnostic.enable": false  
 >}  
 
 
