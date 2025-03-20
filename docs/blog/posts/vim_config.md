@@ -3,7 +3,9 @@ title: Vim Config
 date: 2025-03-20
 published: true
 ---
-> 分享我的vim配置 <!-- more -->
+> 分享我的vim配置 
+
+<!-- more -->
 
 ##  基础配置
 ```
