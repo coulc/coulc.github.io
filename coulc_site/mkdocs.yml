@@ -1,0 +1,32 @@
+site_name: coulc site
+site_url: https://coulc.github.io
+site_author: coulc
+site_description: just for fun
+theme:
+  name: material
+  palette: 
+    - scheme: default 
+      toggle:
+        icon: material/brightness-7
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+
+nav:
+  - Home: index.md
+  - Blog:
+    - index: blog/index.md
+  - About: about.md
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/coulc
+
+
+plugins:
+  - search
+  - blog
+
+
