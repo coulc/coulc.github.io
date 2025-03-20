@@ -56,7 +56,6 @@ autocmd FileType python nnoremap <F5> :w<CR>:!clear && python3 %<CR>
 ## 插件
 > plug.vim   => 插件管理器   
 > coc.nvim   => 智能补全  
-> syntastic  => 语法检查  
 
 ## 插件快捷键
 ```
