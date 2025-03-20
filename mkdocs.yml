@@ -4,6 +4,8 @@ site_author: coulc
 site_description: just for fun
 theme:
   name: material
+  features:
+    - content.code.copy   
   palette: 
     - scheme: default 
       toggle:
@@ -18,12 +20,10 @@ nav:
     - index: blog/index.md
   - About: about.md
 
-
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/coulc
-
 
 plugins:
   - search
